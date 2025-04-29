@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Психолог Ганна | Онлайн-консультації</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary-color: #2c6ca9;
+      --background-color: #e6f0fa;
+      --card-bg: #ffffff;
+      --text-color: #333;
+      --soft-shadow: rgba(0, 0, 0, 0.05);
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: var(--background-color);
+      color: var(--text-color);
+      line-height: 1.6;
+    }
+
+    header {
+      background: var(--primary-color);
+      color: #fff;
+      text-align: center;
+      padding: 80px 20px;
+      border-radius: 0 0 40px 40px;
+    }
+
+    header h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2em;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    nav {
+      margin-top: 20px;
+    }
+
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: opacity 0.3s;
+    }
+
+    nav a:hover {
+      opacity: 0.7;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 960px;
+      margin: 0 auto;
+    }
+
+    .section-title {
+      font-size: 2.2em;
+      margin-bottom: 30px;
+      color: var(--primary-color);
+    }
+
+    .card {
+      background-color: var(--card-bg);
+      padding: 25px;
+      border-radius: 20px;
+      box-shadow: 0 10px 30px var(--soft-shadow);
+      margin-bottom: 20px;
+    }
+
+    .card a {
+      color: var(--primary-color);
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    .payment-button {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 15px 30px;
+      background-color: var(--primary-color);
+      color: #fff;
+      border-radius: 12px;
+      text-decoration: none;
+      font-weight: bold;
+      box-shadow: 0 5px 15px var(--soft-shadow);
+    }
+
+    footer {
+      background-color: #d1e3f3;
+      text-align: center;
+      padding: 40px 20px;
+      border-top: 1px solid #c3d9ec;
+      border-radius: 40px 40px 0 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Ганна — психолог-консультант</h1>
+    <p>Допомагаю знайти внутрішній ресурс, подолати тривожність та побудувати гармонійне життя</p>
+    <nav>
+      <a href="#about">Знайомство</a>
+      <a href="#services">Послуги</a>
+      <a href="#articles">Статті</a>
+      <a href="#offer">Оферта</a>
+      <a href="#certificates">Сертифікати</a>
+      <a href="#pay">Оплата</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2 class="section-title">Знайомство</h2>
+    <div class="card">
+      <p>Я — Ганна, сертифікований психолог з досвідом понад 5 років. Допомагаю людям знайти внутрішній баланс, справлятися з тривожністю, відновлювати сили й будувати здорові стосунки з собою та іншими.</p>
+    </div>
+  </section>
+
+  <section id="services">
+    <h2 class="section-title">Послуги</h2>
+    <div class="card">
+      <ul>
+        <li>Індивідуальні онлайн-консультації (50 хв)</li>
+        <li>Підтримка у кризових станах</li>
+        <li>Робота з самооцінкою, тривожністю, вигоранням</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="articles">
+    <h2 class="section-title">Цікаві статті</h2>
+    <div class="card">
+      <ul>
+        <li><a href="#">Що таке емоційне вигорання і як його уникнути</a></li>
+        <li><a href="#">Як справлятися з тривогою у повсякденному житті</a></li>
+        <li><a href="#">Кроки до зміцнення самооцінки</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="offer">
+    <h2 class="section-title">Договір оферти</h2>
+    <div class="card">
+      <p>Перед початком роботи, будь ласка, ознайомтесь із умовами співпраці у <a href="offer.pdf" target="_blank">договорі оферти</a>.</p>
+    </div>
+  </section>
+
+  <section id="certificates">
+    <h2 class="section-title">Сертифікати та дипломи</h2>
+    <div class="card">
+      <ul>
+        <li><a href="cert1.pdf" target="_blank">Диплом психолога</a></li>
+        <li><a href="cert2.jpeg" target="_blank">Сертифікат когнітивно-поведінкової терапії</a></li>
+        <li><a href="cert3.png" target="_blank">Підтвердження участі в семінарі</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="pay">
+    <h2 class="section-title">Оплата консультацій</h2>
+    <div class="card">
+      <p>Оплатити консультацію можна онлайн через безпечну платіжну систему. Натисніть кнопку нижче, щоб перейти на сторінку оплати.</p>
+      <a class="payment-button" href="https://your-merchant-link.com" target="_blank">Оплатити</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Психолог Ганна. Всі права захищені.</p>
+  </footer>
+</body>
+</html>
